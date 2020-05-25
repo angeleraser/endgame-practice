@@ -1,0 +1,194 @@
+html {
+  font-size: 21px;
+}
+
+body {
+  background-color: #151419;
+  font-family: 'Fira Sans', sans-serif;
+  max-height: 880px;
+  max-width: 1440px;
+}
+
+.main-header {
+  display: flex;
+  box-shadow: 0 1px 15px black;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+}
+
+.main-header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1830AE;
+  margin: 0 0 0 65px;
+  background-image: linear-gradient(#3C59F0, #1830AE);
+  height: 100%;
+  width: 65px;
+}
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  width: 486px;
+  height: 100px;
+  justify-content: space-between;
+}
+
+.item-link {
+  color: #67666A;
+  text-decoration: none;
+}
+
+.list-item:nth-child(2) .item-link {
+  color: #ffffff;
+}
+
+.icon {
+  border-radius: 6px;
+  height: 44px;
+  width: 44px;
+  background: no-repeat center #292A2C;
+}
+
+.main-header__search-input {
+  align-self: center;
+  background-image: url(./img/Icon\ Search.png);
+  margin: 0 65px 0 0;
+}
+
+.movies-section-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  margin: 45px 0;
+}
+
+.movies__img {
+  border-radius: 8px;
+  flex: 1 0 1000px;
+  height: 385px;
+  position: relative;
+}
+
+.movies__img:nth-child(1) {
+  background-image: url(./img/Background\ Movie\ Left.png);
+}
+
+.movies__img:nth-child(2) {
+  margin: 0 20px;
+  background-image: url(./img/Background\ Movie\ Center.png);
+}
+
+.movies__img:nth-child(3) {
+  background-image: url(./img/Movie\ Right.png);
+}
+
+.movie__info {
+  width: 300px;
+  height: 94px;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.movie__title {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 11px;
+}
+
+.movie__description {
+  font-size: 15px;
+  font-weight: 400;
+  color: #D5D1DD;
+}
+
+.genres-bar {
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  display: flex;
+  width: 1290px;
+  height: 44px;
+}
+
+.genres-bar__input {
+  display: flex;
+  background-color: #292A2C;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffff;
+  width: 140px;
+  height: 44px;
+}
+
+.arrow-down {
+  margin-top: 8px;
+}
+
+.divisory-line {
+  background-color: #292A2C;
+  height: 1px;
+  width: 982px;
+}
+
+.view-list {
+  background-image: url(./img/Icon-list.png);
+}
+
+.view-squares {
+  background-image: url(./img/Icon-squares.png);
+}
+
+.movies-select {
+  width: 1290px;
+  margin: 50px auto 0;
+  ;
+  height: 259px;
+}
+
+.movies-select-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffff;
+  height: 24px;
+  width: 100%;
+}
+
+.popular-movies {
+  display: grid;
+  grid-template-columns: repeat(4, 307.5px);
+  grid-column-gap: 20px;
+  grid-template-rows: 205px;
+  margin-top: 30px;
+}
+
+.popular-movies-img {
+  border-radius: 6px;
+  background-position: center;
+}
+
+.popular-movies-img:nth-child(1) {
+  background-image: url(./img/Movie\ 1.png);
+}
+
+.popular-movies-img:nth-child(2) {
+  background-image: url(./img/Movie\ 2.png);
+}
+
+.popular-movies-img:nth-child(3) {
+  background-image: url(./img/Movie\ 3.png);
+}
+
+.popular-movies-img:nth-child(4) {
+  background-image: url(./img/Movie\ 4.png);
+}

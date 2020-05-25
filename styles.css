@@ -5,10 +5,10 @@ html {
 body {
   background-color: #151419;
   font-family: 'Fira Sans', sans-serif;
-  max-height: 880px;
-  max-width: 1440px;
 }
-
+button{
+  border: none;
+}
 .main-header {
   display: flex;
   box-shadow: 0 1px 15px black;
